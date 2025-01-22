@@ -24,8 +24,7 @@
   gap: 2rem;
 }
 
-.wrongAnswer,
-.correctAnswer {
+.answer {
   padding: 4rem;
   border-radius: 1rem;
 
@@ -47,10 +46,10 @@ button:hover {
   border: none;
 }
 
-.correctAnswer:active {
+.correct {
   background-color: green;
 }
 
-.wrongAnswer:active {
+.wrong {
   background-color: red;
 }
